@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.mainHeader {
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: url(../images/pexels-jakkel-418831.jpg) no-repeat left bottom;
+    background-size: cover;
+    font-family: "Montserrat", serif;
+}
+
+
+
+
+.heroOwerlay {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.heroTextWrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.heroTitle {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.heroTextWrap p {
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 300;
+}
